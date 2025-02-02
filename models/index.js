@@ -11,7 +11,7 @@ const TransactionModel = require('./transaction.model');
 const AccountTurnoversModel = require('./accountTurnovers.model');
 const UserModel = require('./user.model');
 
-const sequelize = new Sequelize(config[process.env.NODE_ENV]);
+const sequelize = new Sequelize(config[process.env.NODE_ENV || 'development']);
 
 const Currency = CurrencyModel(sequelize);
 const Account = AccountModel(sequelize);
