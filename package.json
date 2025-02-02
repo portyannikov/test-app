@@ -20,7 +20,6 @@
     "sequelize": "^6.37.5"
   },
   "devDependencies": {
-    "sequelize-auto-migrations": "^1.0.3",
     "sequelize-cli": "^6.6.2"
   }
 }
